@@ -152,7 +152,7 @@ span.logo-studio {
     background: #4D5AE5;
     font-weight: 500;
     color: var(--WHITE, #FFF);
-
+    min-width: 169px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
@@ -335,6 +335,8 @@ display: block;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 span.logo-studio-footer {
